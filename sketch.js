@@ -12,19 +12,19 @@ var score = 0;
 
 function preload(){
 
-  WaterFighter_Img = loadAnimation("../Images/AnimatedWaterMan.gif");
-  SpiderMan_Img = loadImage("../Images/SpiderMan.png");
-  SirenTruck_Img = loadAnimation("../Images/SirenTruck.gif" );
-  Road_Img = loadImage("../Images/RoadImg.jpg");
-  buildingfire_img=loadImage("../Images/BuildingOnFire.jpg");
+  WaterFighter_Img = loadAnimation("../images/AnimatedWaterMan.gif");
+  SpiderMan_Img = loadImage("../images/SpiderMan.png");
+  SirenTruck_Img = loadAnimation("../images/SirenTruck.gif" );
+  Road_Img = loadImage("../images/RoadImg.jpg");
+  buildingfire_img=loadImage("../images/BuildingOnFire.jpg");
 
-  person1Img=loadImage("../Images/RunningGirl.gif");
-  person2Img=loadImage("../Images/Runningboy2.gif");
-  person3Img=loadImage("../Images/Runningboy1.gif");
-  person4Img=loadImage("../Images/Runningboy.gif");
+  person1Img=loadImage("../images/RunningGirl.gif");
+  person2Img=loadImage("../images/Runningboy2.gif");
+  person3Img=loadImage("../images/Runningboy1.gif");
+  person4Img=loadImage("../images/Runningboy.gif");
 
-  pet1Img=loadImage("../Images/pet1.png");
-  pet2Img=loadImage("../Images/pet2.gif");
+  pet1Img=loadImage("../images/pet1.png");
+  pet2Img=loadImage("../images/pet2.gif");
 
 }
   
