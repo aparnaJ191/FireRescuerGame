@@ -12,19 +12,19 @@ var score = 0;
 
 function preload(){
 
-  WaterFighter_Img = loadAnimation("../images/AnimatedWaterMan.gif");
-  SpiderMan_Img = loadImage("../images/SpiderMan.png");
-  SirenTruck_Img = loadAnimation("../images/SirenTruck.gif" );
-  Road_Img = loadImage("../images/RoadImg.jpg");
-  buildingfire_img=loadImage("../images/BuildingOnFire.jpg");
+  WaterFighter_Img = loadAnimation("Images/AnimatedWaterMan.gif");
+  SpiderMan_Img = loadImage("Images/SpiderMan.png");
+  SirenTruck_Img = loadAnimation("Images/SirenTruck.gif" );
+  Road_Img = loadImage("Images/RoadImg.jpg");
+  buildingfire_img=loadImage("Images/BuildingOnFire.jpg");
 
-  person1Img=loadImage("../images/RunningGirl.gif");
-  person2Img=loadImage("../images/Runningboy2.gif");
-  person3Img=loadImage("../images/Runningboy1.gif");
-  person4Img=loadImage("../images/Runningboy.gif");
+  person1Img=loadImage("Images/RunningGirl.gif");
+  person2Img=loadImage("Images/Runningboy2.gif");
+  person3Img=loadImage("Images/Runningboy1.gif");
+  person4Img=loadImage("Images/Runningboy.gif");
 
-  pet1Img=loadImage("../images/pet1.png");
-  pet2Img=loadImage("../images/pet2.gif");
+  pet1Img=loadImage("Images/pet1.png");
+  pet2Img=loadImage("Images/pet2.gif");
 
 }
   
@@ -51,9 +51,9 @@ function setup() {
   SirenTruck.scale = 0.7;
   
   personsGroup=new Group();
-  backgroundImg = loadImage("../images/RoadImg.jpg");
-  sirenSound = loadSound("../images/SIREN2.wav");
-  watersplashSound = loadSound("../images/water_bigsplash.wav");
+  backgroundImg = loadImage("Images/RoadImg.jpg");
+  sirenSound = loadSound("Images/SIREN2.wav");
+  watersplashSound = loadSound("Images/water_bigsplash.wav");
 }
 
 function draw() {
@@ -236,11 +236,11 @@ function getBackgroundImg(is_image){
   //load the image in backgroundImg variable here
   if (is_image){
   
-    backgroundImg = loadImage("../images/BuildingOnFire.jpg");
+    backgroundImg = loadImage("Images/BuildingOnFire.jpg");
    
   }
   else{
-    backgroundImg = loadImage("../images/RoadImg.jpg");
+    backgroundImg = loadImage("Images/RoadImg.jpg");
   }
   
 }
